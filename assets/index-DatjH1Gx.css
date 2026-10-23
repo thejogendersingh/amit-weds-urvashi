@@ -17,9 +17,9 @@
 .text-foreground\/85{color:rgba(68,30,34,0.85)!important}
 .text-red-900\/85{color:rgba(127,29,29,0.85)!important}
 .text-red-900\/90{color:rgba(127,29,29,0.9)!important}
-.text-red-950{color:#FFE8D6!important}
-.text-red-950\/85{color:rgba(255,232,214,0.85)!important}
-.text-red-950\/90{color:rgba(255,232,214,0.9)!important}
+.text-red-950{color:#5C0F14!important}
+.text-red-950\/85{color:rgba(92,15,20,0.85)!important}
+.text-red-950\/90{color:rgba(92,15,20,0.9)!important}
 .text-rose-deep\/70{color:rgba(92,15,20,0.7)!important}
 .text-rose-deep\/75{color:rgba(92,15,20,0.75)!important}
 .text-rose-deep\/80{color:rgba(92,15,20,0.8)!important}
@@ -28,3 +28,5 @@
 .text-\[\#5C0F14\]\/80{color:rgba(92,15,20,0.8)!important}
 .text-\[\#5C0F14\]\/85{color:rgba(92,15,20,0.85)!important}
 .text-\[\#5C0F14\]\/90{color:rgba(92,15,20,0.9)!important}
+
+.bg-gradient-gold{background:linear-gradient(135deg, #d4af37 0%, #aa7c11 100%)!important}

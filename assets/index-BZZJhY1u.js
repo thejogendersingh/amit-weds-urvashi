@@ -255,15 +255,15 @@ const de=()=>{
           e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[530px] isolate",children:[
             e.jsx("img",{src:"/img/reception-bg.png",alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center filter brightness-95"}),
             e.jsx("div",{className:"absolute inset-0 pointer-events-none overflow-hidden z-10",children:Array.from({length:6}).map((c,l)=>e.jsx("div",{className:"absolute animate-float-petal opacity-75",style:{left:`${15+l*27%75}%`,animationDuration:`${10+l*4%7}s`,animationDelay:`${l*5%4}s`},children:e.jsx("span",{className:"text-xl sm:text-2xl opacity-70",children:"✨"})},l))}),
-            e.jsxs("div",{className:"relative z-10 text-center flex flex-col items-center w-full mx-auto bg-white/20 backdrop-blur-md border border-white/20 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
+            e.jsxs("div",{className:"relative z-10 text-center flex flex-col items-center w-full mx-auto bg-white/60 backdrop-blur-md border border-white/50 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
               e.jsx("img",{src:v,alt:"AU Monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover mx-auto mb-2 shadow-sm"}),
-              e.jsx("p",{className:"font-serif-display italic text-red-950 text-lg font-semibold tracking-wider",children:"#SuruchiBhoj"}),
-              e.jsx("h3",{className:"font-cinzel text-xs tracking-[0.2em] text-red-950/85 mt-2 uppercase font-medium",children:"WEDDING FEAST & RECEPTION"}),
-              e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 mt-1 italic",children:"Relish delicious royal cuisine as we celebrate and toast together."}),
-              e.jsx("div",{className:"w-24 h-px bg-gold-soft/30 my-4"}),
-              e.jsx("h2",{className:"font-cinzel text-2xl sm:text-4xl tracking-[0.18em] font-bold text-red-950 leading-tight",children:"SURUCHI BHOJ"}),
-              e.jsx("p",{className:"font-rozha text-xl sm:text-2xl text-red-950/90 font-normal mt-1",children:"सुरुचि भोज (प्रीतिभोज)"}),
-              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-black/20 border border-gold-soft/30 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-red-950 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | रात्रि 08:00 बजे से (08:00 PM Onwards)"})
+              e.jsx("p",{className:"font-serif-display italic text-[#5C0F14] text-lg font-semibold tracking-wider",style:{color:"#5C0F14"},children:"#SuruchiBhoj"}),
+              e.jsx("h3",{className:"font-cinzel text-xs tracking-[0.2em] text-[#5C0F14]/85 mt-2 uppercase font-medium",style:{color:"#5C0F14"},children:"WEDDING FEAST & RECEPTION"}),
+              e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 mt-1 italic",style:{color:"#441E22"},children:"Relish delicious royal cuisine as we celebrate and toast together."}),
+              e.jsx("div",{className:"w-24 h-px bg-gold-soft/50 my-4"}),
+              e.jsx("h2",{className:"font-cinzel text-2xl sm:text-4xl tracking-[0.18em] font-bold text-[#5C0F14] leading-tight",style:{color:"#5C0F14"},children:"SURUCHI BHOJ"}),
+              e.jsx("p",{className:"font-rozha text-xl sm:text-2xl text-[#5C0F14]/90 font-normal mt-1",style:{color:"#5C0F14"},children:"सुरुचि भोज (प्रीतिभोज)"}),
+              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/15 border border-amber-600/35 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-amber-900 font-semibold shadow-soft",style:{color:"#78350F"},children:"Wednesday, 25th Nov 2026 | रात्रि 08:00 बजे से (08:00 PM Onwards)"})
             ]}),
             e.jsx("div",{className:"relative z-10 w-full max-w-[200px] sm:max-w-[240px] mx-auto mt-8 flex justify-center items-end self-end",children:
               e.jsx("img",{src:"/img/partibhoj.png",alt:"Suruchi Bhoj Preetibhoj",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
@@ -273,15 +273,15 @@ const de=()=>{
           e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white text-cream p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[530px] isolate",children:[
             e.jsx("img",{src:ce,alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center"}),
             e.jsx("div",{className:"absolute inset-0 pointer-events-none overflow-hidden z-10",children:Array.from({length:6}).map((c,l)=>e.jsx("div",{className:"absolute animate-float-petal opacity-75",style:{left:`${10+l*29%80}%`,animationDuration:`${12+l*3%8}s`,animationDelay:`${l*7%5}s`},children:e.jsx("span",{className:"text-xl sm:text-2xl opacity-70",children:"🌸"})},l))}),
-            e.jsxs("div",{className:"relative z-10 text-center flex flex-col items-center w-full mx-auto bg-white/15 backdrop-blur-md border border-white/15 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
+            e.jsxs("div",{className:"relative z-10 text-center flex flex-col items-center w-full mx-auto bg-white/60 backdrop-blur-md border border-white/50 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
               e.jsx("img",{src:v,alt:"AU Monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover mx-auto mb-2 shadow-sm"}),
-              e.jsx("p",{className:"font-serif-display italic text-red-900 text-lg font-semibold tracking-wider",children:"#ShubhLagna"}),
-              e.jsx("h3",{className:"font-cinzel text-xs tracking-[0.2em] text-red-900/85 mt-2 uppercase font-medium",children:"SACRED WEDDING RITUALS & PHERAS"}),
-              e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 mt-1 italic",children:"Two souls united in eternal love with sacred vows around the holy fire."}),
-              e.jsx("div",{className:"w-24 h-px bg-gold-soft/30 my-4"}),
-              e.jsx("h2",{className:"font-cinzel text-2xl sm:text-4xl tracking-[0.18em] font-bold text-red-900 leading-tight",children:"SHUBH LAGNA"}),
-              e.jsx("p",{className:"font-rozha text-xl sm:text-2xl text-red-900/90 font-normal mt-1",children:"शुभ लग्न (पाणिग्रहण संस्कार)"}),
-              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-black/20 border border-gold-soft/30 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-red-900 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | रात्रि 12:00 बजे (12:00 AM)"})
+              e.jsx("p",{className:"font-serif-display italic text-[#5C0F14] text-lg font-semibold tracking-wider",style:{color:"#5C0F14"},children:"#ShubhLagna"}),
+              e.jsx("h3",{className:"font-cinzel text-xs tracking-[0.2em] text-[#5C0F14]/85 mt-2 uppercase font-medium",style:{color:"#5C0F14"},children:"SACRED WEDDING RITUALS & PHERAS"}),
+              e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 mt-1 italic",style:{color:"#441E22"},children:"Two souls united in eternal love with sacred vows around the holy fire."}),
+              e.jsx("div",{className:"w-24 h-px bg-gold-soft/50 my-4"}),
+              e.jsx("h2",{className:"font-cinzel text-2xl sm:text-4xl tracking-[0.18em] font-bold text-[#5C0F14] leading-tight",style:{color:"#5C0F14"},children:"SHUBH LAGNA"}),
+              e.jsx("p",{className:"font-rozha text-xl sm:text-2xl text-[#5C0F14]/90 font-normal mt-1",style:{color:"#5C0F14"},children:"शुभ लग्न (पाणिग्रहण संस्कार)"}),
+              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/15 border border-amber-600/35 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-amber-900 font-semibold shadow-soft",style:{color:"#78350F"},children:"Wednesday, 25th Nov 2026 | रात्रि 12:00 बजे (12:00 AM)"})
             ]}),
             e.jsx("div",{className:"relative z-10 w-full max-w-[200px] sm:max-w-[240px] mx-auto mt-8 flex justify-center items-end self-end",children:
               e.jsx("img",{src:te,alt:"Wedding Couple Caricature",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
@@ -343,9 +343,10 @@ const de=()=>{
           e.jsx("p",{className:"font-cinzel text-xs tracking-[0.25em] text-rose-deep/80 uppercase font-semibold",children:"R.S.V.P. / संपर्क सूत्र"}),
           e.jsx("h3",{className:"font-hindi text-lg sm:text-xl text-rose-deep font-semibold",children:"अशोक निगम एवं समस्त निगम परिवार"}),
           e.jsx("div",{className:"pt-2",children:
-            e.jsxs("a",{href:"tel:9425367655",className:"inline-flex items-center justify-center gap-2.5 bg-gradient-gold text-white font-cinzel text-base font-bold px-8 py-2.5 rounded-full shadow-gold hover:opacity-95 transition-all hover:scale-105 tracking-wider",children:[
-              e.jsx("span",{className:"font-hindi text-sm font-normal",children:"मो.:"}),
-              "9425367655"
+            e.jsxs("a",{href:"tel:9425367655",className:"inline-flex items-center justify-center gap-2.5 gradient-gold text-white font-cinzel text-base sm:text-lg font-bold px-8 py-3 rounded-full shadow-gold hover:opacity-95 transition-all hover:scale-105 tracking-wider active:scale-95",style:{background:"linear-gradient(135deg, #d4af37 0%, #aa7c11 100%)",color:"#ffffff",boxShadow:"0 4px 16px rgba(170,124,17,0.45)"},children:[
+              e.jsx(C,{className:"w-4 h-4 text-white"}),
+              e.jsx("span",{className:"font-hindi text-base font-bold text-white",style:{color:"#ffffff"},children:"मो.:"}),
+              e.jsx("span",{style:{color:"#ffffff",fontWeight:"bold"},children:"9425367655"})
             ]})
           })
         ]})
