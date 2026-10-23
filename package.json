@@ -1,7 +1,7 @@
 {
-  "name": "dr-khushbu-weds-palkesh-wedding-invitation",
+  "name": "amit-weds-urvashi-wedding-invitation",
   "version": "1.0.0",
-  "description": "Dr. Khushbu & Palkesh Wedding Invitation",
+  "description": "Amit & Urvashi Wedding Invitation",
   "scripts": {
     "start": "python server.py",
     "dev": "python server.py",
@@ -10,10 +10,9 @@
   "keywords": [
     "wedding",
     "invitation",
-    "khushbu",
-    "palkesh",
-    "ranava",
-    "sharma"
+    "amit",
+    "urvashi",
+    "nigam"
   ],
   "author": "",
   "license": "ISC"

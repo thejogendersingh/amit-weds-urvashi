@@ -1,29 +1,32 @@
-# Dr. Khushbu & Palkesh — Wedding Invitation
+# अमित ♥ उर्वशी — शुभ विवाह
 
-An interactive digital wedding invitation for **Dr. Khushbu & Palkesh**.
+डिजिटल विवाह आमंत्रण पत्रिका — **अमित एवं उर्वशी**
 
-## Celebrations Schedule
-- **Ganpati Sthapna**: 30th November 2026, Monday at 8:00 AM
-- **Haldi Rasam**: 30th November 2026, Monday at 10:00 AM
-- **Sangeet Sandhya**: 30th November 2026, Monday at 6:00 PM
-- **Wedding Ceremony**: 1st December 2026, Tuesday at 11:00 AM
-- **Reception**: 1st December 2026, Tuesday at 6:00 PM
+## कार्यक्रम विवरण (Events Schedule)
+**दिनांक:** 25 नवंबर 2026 (बुधवार)
 
-## Venue
-**Bhagt Shree Marriage Garden**  
-Dewas, Raja Ram Nagar  
-[Google Maps Location](https://maps.app.goo.gl/XfEkL7RzL2ZUbTJq8?g_st=aw)
+- **हल्दी कार्निवल**: प्रातः 10:00 बजे
+- **लगन समारोह**: दोपहर 12:00 बजे
+- **मंडप पूजन**: दोपहर 3:00 बजे
+- **बारात निकासी**: सायं 7:00 बजे
+- **सुरुचि भोज (प्रीतिभोज)**: रात्रि 8:00 बजे से
+- **शुभ लग्न**: रात्रि 12:00 बजे
 
-**Hashtag**: #KhushiKePal
+## विवाह स्थल (Venue)
+**बंधन गार्डन**  
+लवकुश मेन रोड, लवकुश आवास विहार कॉलोनी,  
+शबरी नगर, सुखलिया, इंदौर  
 
-## RSVP
-- Mr. Rasik K. Ranava
-- Mrs. Jyoti Rasik Ranava
-- Mr. Samyak Rasik Ranava
-- Ranava Family  
-Contact: 96242 11555 / 97374 11555
+**संपर्क सूत्र**: 9425367655
 
-## Local Development
+## परिवार
+- **स्नेहाकांक्षी**: स्नेहाकांक्षी परिवार (निगम परिवार)
+- **स्वागतकर्ता**: नीलम – सुधीर निगम, अनीता – अशोक निगम, सोनम – राहुल श्रीवास्तव, वायु, ओविया
+- **दर्शनाभिलाषी**: श्रीमती सरोज देवी निगम, सुशील निगम, वंदना – अनिल निगम, अर्चना – दिलीप निगम, वीणा – रणजीत सिंह निगम, रेखा – अखिलेश निगम, शिखा – सौरभ निगम, शालिनी – कुणाल निगम, विदुषी – अंकुर निगम, रीति – यश निगम
+
+## लोकल सर्वर (Local Development)
 ```bash
+python server.py
+# or
 npm start
 ```

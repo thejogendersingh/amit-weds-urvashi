@@ -9,6 +9,7 @@ class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
 
+    def guess_type(self, path):
         if path.endswith(".js"):
             return "application/javascript; charset=utf-8"
         if path.endswith(".css"):
@@ -29,24 +30,13 @@ class Handler(SimpleHTTPRequestHandler):
 
     def end_headers(self):
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Cache-Control", "no-cache")
+        self.send_header("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
         super().end_headers()
 
-class DualStackServer(ThreadingHTTPServer):
-    address_family = socket.AF_INET6
-    def server_bind(self):
-        try:
-            self.socket.setsockopt(socket.IPPROTO_IPV6, socket.IPV6_V6ONLY, 0)
-        except (AttributeError, OSError):
-            pass
-        return super().server_bind()
-
 if __name__ == "__main__":
-    try:
-        server = DualStackServer(("", PORT), Handler)
-    except Exception:
-        # Fallback to standard IPv4 if IPv6 not supported
-        server = ThreadingHTTPServer(("0.0.0.0", PORT), Handler)
-    
-    print(f"Serving wedding invitation at http://127.0.0.1:{PORT} and http://localhost:{PORT}")
+    server = ThreadingHTTPServer(("0.0.0.0", PORT), Handler)
+    print(f"Serving wedding invitation at http://localhost:{PORT} and http://127.0.0.1:{PORT}")
     server.serve_forever()
+
