@@ -78,7 +78,7 @@ q=({onOpen:t,opening:s})=>e.jsxs("div",{className:"min-h-screen w-full flex flex
     ]}),
     e.jsxs("div",{className:`mt-8 text-center transition-all duration-500 ${s?"opacity-0 translate-y-4 pointer-events-none":"animate-fade-up delay-200"}`,children:[
       e.jsx("h1",{className:"font-royal-sub text-xl sm:text-2xl text-rose-deep font-bold tracking-[0.22em]",children:"YOU'RE INVITED"}),
-      e.jsx("p",{className:"mt-2 text-rose font-royal-script text-5xl sm:text-6xl font-normal",children:"Amit & Urvashi"}),
+      e.jsxs("p",{className:"mt-2 text-rose font-royal-script text-5xl sm:text-6xl font-normal",children:[e.jsx("span",{className:"font-royal-capital-a",children:"A"}),"mit & Urvashi"]}),
       e.jsx("p",{className:"mt-3 font-royal-body text-foreground/85 tracking-wide text-xs sm:text-sm font-medium",children:"Tap the envelope to open our invitation"})
     ]})
   ]})
@@ -160,7 +160,7 @@ const de=()=>{
       e.jsx("img",{src:k,alt:"",className:"absolute inset-0 w-full h-full object-cover opacity-15 pointer-events-none"}),
       e.jsxs("div",{className:"relative max-w-3xl mx-auto text-center z-10",children:[
         e.jsx("h2",{className:"font-royal-sub text-lg sm:text-xl text-rose-deep tracking-[0.2em] mb-1 font-bold",children:"SAVE THE DATE"}),
-        e.jsx("p",{className:"font-royal-body text-sm sm:text-base text-rose-deep/90 font-medium",children:"Wedding Celebrations — Wednesday, 25th November 2026"}),
+        e.jsx("p",{className:"font-royal-body text-sm sm:text-base text-rose-deep/90 font-medium",children:"A celebration of eternal love • Scratch below to reveal our wedding date"}),
         e.jsx(y,{}),
         e.jsx("div",{className:"mb-10 mt-8",children:e.jsx(_,{revealed:t,onRevealed:()=>s(!0)})}),
         e.jsx("div",{className:`transition-all duration-1000 ${t?"opacity-100 translate-y-0":"opacity-0 translate-y-8 pointer-events-none h-0 overflow-hidden"}`,"aria-hidden":!t,children:e.jsx(J,{})})
@@ -314,7 +314,7 @@ const de=()=>{
           e.jsx("p",{className:"font-royal-sub text-xs tracking-[0.2em] text-rose-deep/80 uppercase font-semibold",children:"CORDIALLY INVITED BY"}),
           e.jsx("p",{className:"font-royal-body text-base sm:text-lg text-rose-deep font-semibold leading-relaxed mt-1",children:"Neelam – Sudhir Nigam \u00a0•\u00a0 Anita – Ashok Nigam"}),
           e.jsx("p",{className:"font-royal-body text-sm sm:text-base text-foreground/85 leading-relaxed font-medium",children:"Sonam – Rahul Shrivastava"}),
-          e.jsx("p",{className:"font-royal-body text-xs sm:text-sm text-rose font-medium italic pt-0.5",children:"Loving Kids: Vayu, Oviya"})
+          e.jsx("p",{className:"font-royal-body text-xs sm:text-sm text-rose font-medium italic pt-0.5",children:"Loving Kids: Vaayu, Oviya"})
         ]}),
 
         // Divider

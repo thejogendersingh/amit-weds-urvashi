@@ -34,7 +34,7 @@
 /* ==========================================================================
    PREMIUM ROYAL WEDDING TYPOGRAPHY & READABILITY SYSTEM
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel:wght@400;600;700&family=Great+Vibes&family=Marcellus&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Cinzel:wght@400;600;700&family=Great+Vibes&family=Marcellus&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
 
 :root {
   --font-serif: 'Playfair Display', Georgia, serif;
@@ -74,6 +74,14 @@ body {
   font-family: 'Great Vibes', 'Alex Brush', cursive !important;
   font-weight: 400 !important;
   letter-spacing: 0.02em !important;
+}
+
+.font-royal-capital-a {
+  font-family: 'Allura', 'Pinyon Script', cursive !important;
+  font-size: 1.15em !important;
+  display: inline-block !important;
+  vertical-align: baseline !important;
+  line-height: 1 !important;
 }
 
 .font-royal-sub {
