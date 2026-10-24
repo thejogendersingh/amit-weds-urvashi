@@ -56,7 +56,7 @@ function _({revealed:t,onRevealed:s}){
       e.jsxs("div",{className:"scratch-date",children:[
         e.jsx("p",{className:"font-cinzel text-xs tracking-[0.25em] text-[#5C0F14]/80 uppercase",children:"WEDNESDAY"}),
         e.jsx("strong",{className:"font-cinzel text-xl sm:text-2xl text-rose font-bold tracking-wider mt-1",children:"25TH NOVEMBER 2026"}),
-        e.jsx("span",{className:"font-hindi text-xs text-foreground/75 mt-1 font-normal",children:"25 नवंबर 2026 (बुधवार)"})
+        e.jsx("span",{className:"font-serif-display italic text-xs text-foreground/75 mt-1 font-normal",children:"Indore, Madhya Pradesh"})
       ]}),
       !t&&e.jsx("canvas",{ref:a,role:"button",tabIndex:0,"aria-label":"Scratch to reveal the wedding date, or press Enter",onKeyDown:r=>{(r.key==="Enter"||r.key===" ")&&(r.preventDefault(),b())},onPointerDown:r=>{r.currentTarget.setPointerCapture(r.pointerId),m.current=!0,p(r)},onPointerMove:p,onPointerUp:z,onPointerCancel:z})
     ]}),
@@ -76,11 +76,10 @@ q=({onOpen:t,opening:s})=>e.jsxs("div",{className:"min-h-screen w-full flex flex
       e.jsx("img",{src:Y,alt:"Wedding invitation envelope",className:"w-[280px] sm:w-[340px] md:w-[380px] h-auto drop-shadow-2xl"}),
       e.jsx("span",{className:"absolute inset-0 flex items-center justify-center",children:e.jsx("img",{src:v,alt:"Amit & Urvashi wax seal monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover drop-shadow-lg group-hover:rotate-12 transition-transform duration-500"})})
     ]}),
-    e.jsxs("div",{className:`mt-10 text-center transition-all duration-500 ${s?"opacity-0 translate-y-4 pointer-events-none":"animate-fade-up delay-200"}`,children:[
-      e.jsx("h1",{className:"font-cinzel text-3xl sm:text-4xl text-rose-deep font-semibold tracking-[0.15em]",children:"YOU'RE INVITED"}),
-      e.jsx("p",{className:"mt-2 text-rose font-rozha text-3xl sm:text-4xl",children:"चि. अमित ♥ सौ. उर्वशी"}),
-      e.jsx("p",{className:"font-serif-display text-rose-deep/75 text-sm sm:text-base mt-0.5 italic",children:"Amit & Urvashi"}),
-      e.jsx("p",{className:"mt-3 font-medium font-serif-display text-foreground/80 italic tracking-wide text-base sm:text-lg",children:"Tap the envelope to open our invitation"})
+    e.jsxs("div",{className:`mt-8 text-center transition-all duration-500 ${s?"opacity-0 translate-y-4 pointer-events-none":"animate-fade-up delay-200"}`,children:[
+      e.jsx("h1",{className:"font-royal-sub text-xl sm:text-2xl text-rose-deep font-bold tracking-[0.22em]",children:"YOU'RE INVITED"}),
+      e.jsx("p",{className:"mt-2 text-rose font-royal-script text-5xl sm:text-6xl font-normal",children:"Amit & Urvashi"}),
+      e.jsx("p",{className:"mt-3 font-royal-body text-foreground/85 tracking-wide text-xs sm:text-sm font-medium",children:"Tap the envelope to open our invitation"})
     ]})
   ]})
 ]});
@@ -94,7 +93,7 @@ const de=()=>{
   },[]),
   e.jsxs("main",{className:"relative bg-[#FCF8F2] min-h-screen text-rose-deep overflow-hidden select-none animate-fade-in",children:[
     e.jsx("div",{className:"fixed inset-0 pointer-events-none opacity-[0.08] z-0 mix-blend-overlay",children:e.jsx("img",{src:S,alt:"",className:"w-full h-full object-cover"})}),
-    // 1. HERO SECTION (चि. अमित & सौ. उर्वशी in Rozha One font with parents below, no boxed borders)
+    // 1. HERO SECTION (Amit & Urvashi in Royal Playfair Serif font with parents below)
     e.jsxs("section",{ref:m,"data-id":"welcome",className:"relative min-h-screen w-full flex flex-col items-center justify-between py-12 px-6 bg-cover bg-center overflow-hidden z-10",style:{backgroundImage:`url(${S})`},children:[
       e.jsx("div",{className:"absolute inset-0 bg-[#FCF8F2]/10 pointer-events-none"}),
       e.jsxs("div",{className:"absolute top-0 left-0 right-0 z-20 flex justify-between px-4 sm:px-12 pointer-events-none",children:[
@@ -110,50 +109,49 @@ const de=()=>{
       e.jsxs("div",{className:"relative z-10 w-full max-w-2xl mx-auto flex flex-col items-center text-center mt-12 sm:mt-16",children:[
         e.jsxs("div",{className:"mb-4 animate-fade-up",children:[
           e.jsx("img",{src:A,alt:"Lord Ganesha",width:80,height:80,className:"mx-auto h-20 w-20 sm:h-24 sm:w-24 object-contain drop-shadow-md animate-shimmer"}),
-          e.jsx("h3",{className:"font-cinzel text-xs sm:text-sm tracking-[0.25em] text-[#5C0F14] font-bold bg-[#FCF8F2]/90 border border-gold-soft/60 px-6 py-1.5 rounded-full shadow-sm inline-block mt-3 backdrop-blur-[1px]",children:"|| Om Shree Ganeshaya Namah ||"})
+          e.jsx("h3",{className:"font-royal-sub text-xs sm:text-sm tracking-[0.22em] text-[#5C0F14] font-bold bg-[#FCF8F2]/95 border border-gold-soft px-6 py-2 rounded-full shadow-sm inline-block mt-3",children:"|| Om Shree Ganeshaya Namah ||"})
         ]}),
-        e.jsxs("div",{className:"max-w-lg mx-auto bg-[#FCF8F2]/95 border-2 border-gold-soft p-5 rounded-2xl mb-6 shadow-elegant animate-fade-up delay-200 backdrop-blur-sm",children:[
-          e.jsxs("p",{className:"tiro-devanagari-hindi-regular text-base sm:text-lg text-[#5C0F14] font-normal leading-relaxed tracking-wider",children:[
-            "॥ वक्रतुण्ड महाकाय सूर्यकोटि समप्रभः । ",e.jsx("br",{})," निर्विघ्नं कुरुमे देव सर्वकार्येषु सर्वदा ॥"
-          ]}),
-          e.jsx("div",{className:"w-20 h-px bg-gold-soft mx-auto my-3"}),
-          e.jsxs("p",{className:"font-serif-display text-xs sm:text-sm text-rose-deep/80 font-medium italic leading-relaxed uppercase tracking-wider",children:[
+        e.jsxs("div",{className:"max-w-lg mx-auto bg-[#FCF8F2]/95 border-2 border-gold-soft p-6 rounded-2xl mb-6 shadow-elegant animate-fade-up delay-200 backdrop-blur-sm",children:[
+          e.jsxs("p",{className:"font-royal-title text-base sm:text-lg text-[#5C0F14] font-semibold leading-relaxed tracking-wide",children:[
             "Vakratunda Mahakaya Suryakoti Samaprabha",e.jsx("br",{}),"Nirvighnam Kurume Deva Sarvakaryeshu Sarvada"
-          ]})
+          ]}),
+          e.jsx("div",{className:"w-16 h-px bg-gold-soft mx-auto my-3"}),
+          e.jsx("p",{className:"font-royal-body text-xs sm:text-sm text-rose-deep/85 font-normal leading-relaxed",children:
+            "May the divine Lord Ganesha remove all obstacles and shower his boundless blessings upon this auspicious union."
+          })
         ]}),
-        e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 max-w-md px-4 animate-fade-up delay-300 italic",children:"With the divine blessings of Almighty & our elders, we cordially invite you to celebrate the wedding ceremony of"}),
+        e.jsx("p",{className:"font-royal-body text-sm sm:text-base text-foreground/85 max-w-md px-4 animate-fade-up delay-300 leading-relaxed font-normal",children:"With the divine blessings of Almighty & our elders, we cordially invite you to celebrate the wedding ceremony of"}),
         e.jsxs("div",{className:"mt-6 flex flex-col items-center",children:[
-          // Groom: चि. अमित
+          // Groom: Amit
           e.jsxs("div",{className:"flex flex-col items-center",children:[
             e.jsx("h1",{className:"animate-fade-up delay-400",children:
-              e.jsx("span",{className:"font-rozha text-5xl sm:text-7xl text-rose leading-tight drop-shadow-sm hover:scale-105 transition-transform duration-500 block font-normal tracking-wide",children:"चि. अमित"})
+              e.jsx("span",{className:"font-royal-title text-4xl sm:text-6xl text-rose font-bold tracking-wide drop-shadow-sm hover:scale-105 transition-transform duration-500 block",children:"Amit"})
             }),
-            e.jsxs("div",{className:"mt-2 text-xs sm:text-sm text-foreground/80 tracking-wide leading-relaxed animate-fade-up delay-500 font-hindi text-center",children:[
-              e.jsx("p",{className:"font-normal text-rose-deep text-sm sm:text-base",children:"श्री अशोक निगम एवं श्रीमती अनीता निगम के सुपुत्र"}),
-              e.jsx("p",{className:"font-light text-foreground/70 text-xs sm:text-sm mt-0.5",children:"स्व. श्री मनोहर लाल जी निगम एवं स्व. श्रीमती चंद्रकांत निगम के सुपौत्र"})
+            e.jsxs("div",{className:"mt-2 text-xs sm:text-sm text-foreground/85 tracking-wide leading-relaxed animate-fade-up delay-500 font-royal-body text-center",children:[
+              e.jsx("p",{className:"font-semibold text-rose-deep text-sm sm:text-base",children:"Son of Mr. Ashok Nigam & Mrs. Anita Nigam"}),
+              e.jsx("p",{className:"font-normal text-foreground/75 text-xs sm:text-sm mt-0.5",children:"Grandson of Late Mr. Manohar Lal Nigam & Late Mrs. Chandrakanta Nigam"})
             ]})
           ]}),
           // weds divider
-          e.jsxs("div",{className:"my-3 flex items-center justify-center gap-3 animate-fade-up delay-500",children:[
-            e.jsx("span",{className:"h-px w-12 bg-gold-soft/60"}),
-            e.jsx("span",{className:"font-script text-2xl sm:text-3xl text-rose-deep italic",children:"weds"}),
-            e.jsx("span",{className:"font-hindi text-rose-deep/70 text-xs sm:text-sm font-normal",children:"संग"}),
-            e.jsx("span",{className:"h-px w-12 bg-gold-soft/60"})
+          e.jsxs("div",{className:"my-4 flex items-center justify-center gap-3 animate-fade-up delay-500",children:[
+            e.jsx("span",{className:"h-px w-14 bg-gold-soft/70"}),
+            e.jsx("span",{className:"font-royal-script text-3xl sm:text-4xl text-amber-700 italic",children:"weds"}),
+            e.jsx("span",{className:"h-px w-14 bg-gold-soft/70"})
           ]}),
-          // Bride: सौ. उर्वशी
+          // Bride: Urvashi
           e.jsxs("div",{className:"flex flex-col items-center",children:[
             e.jsx("h1",{className:"animate-fade-up delay-500",children:
-              e.jsx("span",{className:"font-rozha text-5xl sm:text-7xl text-rose leading-tight drop-shadow-sm hover:scale-105 transition-transform duration-500 block font-normal tracking-wide",children:"सौ. उर्वशी"})
+              e.jsx("span",{className:"font-royal-title text-4xl sm:text-6xl text-rose font-bold tracking-wide drop-shadow-sm hover:scale-105 transition-transform duration-500 block",children:"Urvashi"})
             }),
-            e.jsxs("div",{className:"mt-2 text-xs sm:text-sm text-foreground/80 tracking-wide leading-relaxed animate-fade-up delay-700 font-hindi text-center",children:[
-              e.jsx("p",{className:"font-normal text-rose-deep text-sm sm:text-base",children:"श्री राजेश निगम एवं श्रीमती पूजा निगम की सुपुत्री"}),
-              e.jsx("p",{className:"font-light text-foreground/70 text-xs sm:text-sm mt-0.5",children:"श्री कैलाश चंद्र निगम एवं श्रीमती कांता निगम की सुपौत्री"})
+            e.jsxs("div",{className:"mt-2 text-xs sm:text-sm text-foreground/85 tracking-wide leading-relaxed animate-fade-up delay-700 font-royal-body text-center",children:[
+              e.jsx("p",{className:"font-semibold text-rose-deep text-sm sm:text-base",children:"Daughter of Mr. Rajesh Nigam & Mrs. Pooja Nigam"}),
+              e.jsx("p",{className:"font-normal text-foreground/75 text-xs sm:text-sm mt-0.5",children:"Granddaughter of Mr. Kailash Chandra Nigam & Mrs. Kanta Nigam"})
             ]})
           ]})
         ]})
       ]}),
       e.jsx("div",{className:"relative z-10 w-full max-w-[280px] sm:max-w-[340px] mt-8 flex justify-center items-end animate-fade-up delay-1000",children:
-        e.jsx("img",{src:K,alt:"Shiva-Parvati wedding caricature",className:"w-full h-auto object-contain drop-shadow-xl select-none"})
+        e.jsx("img",{src:K,alt:"Wedding caricature",className:"w-full h-auto object-contain drop-shadow-xl select-none"})
       })
     ]}),
 
@@ -161,8 +159,8 @@ const de=()=>{
     e.jsxs("section",{className:"relative py-20 px-6 bg-cream border-y border-gold-soft/30 z-10",children:[
       e.jsx("img",{src:k,alt:"",className:"absolute inset-0 w-full h-full object-cover opacity-15 pointer-events-none"}),
       e.jsxs("div",{className:"relative max-w-3xl mx-auto text-center z-10",children:[
-        e.jsx("h2",{className:"font-cinzel text-xl sm:text-2xl text-rose-deep tracking-[0.2em] mb-1 font-semibold",children:"SAVE THE DATE"}),
-        e.jsx("p",{className:"font-hindi text-xs sm:text-sm text-rose-deep/80 font-normal",children:"शुभ विवाह — 25 नवंबर 2026 (बुधवार)"}),
+        e.jsx("h2",{className:"font-royal-sub text-lg sm:text-xl text-rose-deep tracking-[0.2em] mb-1 font-bold",children:"SAVE THE DATE"}),
+        e.jsx("p",{className:"font-royal-body text-sm sm:text-base text-rose-deep/90 font-medium",children:"Wedding Celebrations — Wednesday, 25th November 2026"}),
         e.jsx(y,{}),
         e.jsx("div",{className:"mb-10 mt-8",children:e.jsx(_,{revealed:t,onRevealed:()=>s(!0)})}),
         e.jsx("div",{className:`transition-all duration-1000 ${t?"opacity-100 translate-y-0":"opacity-0 translate-y-8 pointer-events-none h-0 overflow-hidden"}`,"aria-hidden":!t,children:e.jsx(J,{})})
@@ -173,180 +171,179 @@ const de=()=>{
     e.jsx("section",{className:"relative py-20 px-4 sm:px-6 bg-[#FCF8F2] z-10",children:
       e.jsxs("div",{className:"max-w-4xl mx-auto",children:[
         e.jsxs("div",{className:"text-center mb-16",children:[
-          e.jsx("h2",{className:"font-cinzel text-3xl sm:text-5xl text-rose-deep font-bold tracking-[0.15em]",children:"EVENTS SCHEDULE"}),
-          e.jsx("p",{className:"font-cinzel text-xs tracking-[0.25em] text-rose-deep/75 mt-1 font-medium",children:"CELEBRATE WITH US"}),
+          e.jsx("h2",{className:"font-royal-title text-3xl sm:text-4xl text-rose-deep font-bold tracking-wide",children:"EVENTS SCHEDULE"}),
+          e.jsx("p",{className:"font-royal-sub text-xs tracking-[0.22em] text-rose-deep/80 mt-1 font-semibold",children:"CELEBRATE WITH US"}),
           e.jsx(y,{}),
-          e.jsx("p",{className:"font-serif-display italic text-base sm:text-lg text-foreground/80 mt-1",children:"Wednesday, 25th November 2026 | 25 नवंबर 2026 (बुधवार)"})
+          e.jsx("p",{className:"font-royal-body text-sm sm:text-base text-foreground/85 mt-1 font-medium",children:"Wednesday, 25th November 2026"})
         ]}),
         e.jsxs("div",{className:"space-y-16",children:[
-          // 1. Haldi Carnival (हल्दी कार्निवल)
-          e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[520px] isolate",children:[
-            e.jsx("img",{src:re,alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center"}),
-            e.jsx("div",{className:"absolute inset-0 pointer-events-none overflow-hidden mix-blend-color-burn z-10",children:Array.from({length:15}).map((c,l)=>e.jsx("div",{className:"absolute w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-amber-400 opacity-60 animate-turmeric",style:{left:`${l*37%100}%`,top:`${10+l*23%80}%`,animationDelay:`${l*7%30/10}s`,animationDuration:`${2.5+l*11%30/10}s`}},l))}),
-            e.jsxs("div",{className:"relative top-4 z-10 text-center flex flex-col items-center w-full mx-auto bg-white/40 backdrop-blur-md border border-white/30 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
-              e.jsx("img",{src:v,alt:"AU Monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover mx-auto mb-2 shadow-sm"}),
-              e.jsx("p",{className:"font-serif-display italic text-amber-700 text-lg font-semibold tracking-wider",children:"#HaldiCarnival"}),
-              e.jsx("h3",{className:"font-cinzel text-xs tracking-[0.2em] text-amber-700/85 mt-2 uppercase font-medium",children:"CELEBRATION OF RADIANT COLORS & JOY"}),
-              e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 mt-1 italic",children:"Soak in shades of yellow with laughter, music, and love."}),
-              e.jsx("div",{className:"w-24 h-px bg-gold-soft/50 my-4"}),
-              e.jsx("h2",{className:"font-cinzel text-2xl sm:text-4xl tracking-[0.18em] font-bold text-amber-700 leading-tight",children:"HALDI CARNIVAL"}),
-              e.jsx("p",{className:"font-rozha text-xl sm:text-2xl text-amber-700/90 font-normal mt-1",children:"हल्दी कार्निवल"}),
-              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/10 border border-amber-600/30 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-amber-900 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | प्रातः 10:00 बजे (10:00 AM)"})
-            ]}),
-            e.jsx("div",{className:"relative z-10 w-full max-w-[230px] sm:max-w-[270px] mx-auto mt-8 flex justify-center items-end self-end",children:
-              e.jsx("img",{src:"/img/haldi-groom.png",alt:"Haldi Ceremony Groom",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
-            })
-          ]}),
-          // 2. Lagan Ceremony (लगन समारोह)
+          // 1. Engagement (10:00 AM)
           e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[500px] isolate",children:[
             e.jsx("img",{src:S,alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center opacity-70"}),
             e.jsx("div",{className:"absolute inset-0 bg-[#FCF8F2]/30 pointer-events-none"}),
             e.jsxs("div",{className:"relative top-4 z-10 text-center flex flex-col items-center w-full mx-auto bg-white/50 backdrop-blur-md border border-white/40 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
               e.jsx("img",{src:v,alt:"AU Monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover mx-auto mb-2 shadow-sm"}),
-              e.jsx("p",{className:"font-serif-display italic text-[#5C0F14] text-lg font-semibold tracking-wider",children:"#LaganCeremony"}),
-              e.jsx("h3",{className:"font-cinzel text-xs tracking-[0.2em] text-[#5C0F14]/85 mt-2 uppercase font-medium",children:"AUSPICIOUS WEDDING RITUALS"}),
-              e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 mt-1 italic",children:"To begin our auspicious wedding journey with love & divine blessings."}),
-              e.jsx("div",{className:"w-24 h-px bg-gold-soft/50 my-4"}),
-              e.jsx("h2",{className:"font-cinzel text-2xl sm:text-4xl tracking-[0.18em] font-bold text-[#5C0F14] leading-tight",children:"LAGAN CEREMONY"}),
-              e.jsx("p",{className:"font-rozha text-xl sm:text-2xl text-[#5C0F14]/90 font-normal mt-1",children:"लगन समारोह"}),
-              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/10 border border-amber-600/30 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-amber-900 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | दोपहर 12:00 बजे (12:00 PM)"})
+              e.jsx("p",{className:"font-royal-body italic text-[#5C0F14] text-sm font-semibold tracking-wide",children:"#EngagementCeremony"}),
+              e.jsx("h3",{className:"font-royal-sub text-xs tracking-[0.16em] text-[#5C0F14]/90 mt-1 uppercase font-semibold",children:"EXCHANGE OF RINGS & SACRED PROMISES"}),
+              e.jsx("p",{className:"font-royal-body text-sm text-foreground/85 mt-2 leading-relaxed font-normal",children:"The auspicious exchange of rings, marking the beautiful beginning of our journey together."}),
+              e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 my-3.5"}),
+              e.jsx("h2",{className:"font-royal-title text-2xl sm:text-3xl tracking-wide font-bold text-[#5C0F14] leading-tight",children:"ENGAGEMENT CEREMONY"}),
+              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/10 border border-amber-600/30 px-5 py-2 rounded-full font-royal-body text-xs sm:text-sm text-amber-950 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | 10:00 AM (Morning)"})
             ]}),
             e.jsx("div",{className:"relative z-10 w-full max-w-[210px] sm:max-w-[250px] mx-auto mt-8 flex justify-center items-end self-end",children:
-              e.jsx("img",{src:"/img/event-lagan.png",alt:"Lagan Ceremony",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
+              e.jsx("img",{src:"/img/event-lagan.png",alt:"Engagement Ceremony",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
             })
           ]}),
-          // 3. Mandap Puja (मंडप पूजन)
+
+          // 2. Haldi Carnival (12:00 PM)
+          e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[520px] isolate",children:[
+            e.jsx("img",{src:re,alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center"}),
+            e.jsx("div",{className:"absolute inset-0 pointer-events-none overflow-hidden mix-blend-color-burn z-10",children:Array.from({length:15}).map((c,l)=>e.jsx("div",{className:"absolute w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-amber-400 opacity-60 animate-turmeric",style:{left:`${l*37%100}%`,top:`${10+l*23%80}%`,animationDelay:`${l*7%30/10}s`,animationDuration:`${2.5+l*11%30/10}s`}},l))}),
+            e.jsxs("div",{className:"relative top-4 z-10 text-center flex flex-col items-center w-full mx-auto bg-white/40 backdrop-blur-md border border-white/30 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
+              e.jsx("img",{src:v,alt:"AU Monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover mx-auto mb-2 shadow-sm"}),
+              e.jsx("p",{className:"font-royal-body italic text-amber-800 text-sm font-semibold tracking-wide",children:"#HaldiCarnival"}),
+              e.jsx("h3",{className:"font-royal-sub text-xs tracking-[0.16em] text-amber-900 mt-1 uppercase font-semibold",children:"CELEBRATION OF RADIANT COLORS & JOY"}),
+              e.jsx("p",{className:"font-royal-body text-sm text-foreground/85 mt-2 leading-relaxed font-normal",children:"Soak in vibrant shades of yellow with laughter, music, and sunny blessings."}),
+              e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 my-3.5"}),
+              e.jsx("h2",{className:"font-royal-title text-2xl sm:text-3xl tracking-wide font-bold text-amber-800 leading-tight",children:"HALDI CARNIVAL"}),
+              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/10 border border-amber-600/30 px-5 py-2 rounded-full font-royal-body text-xs sm:text-sm text-amber-950 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | 12:00 PM (Noon)"})
+            ]}),
+            e.jsx("div",{className:"relative z-10 w-full max-w-[230px] sm:max-w-[270px] mx-auto mt-8 flex justify-center items-end self-end",children:
+              e.jsx("img",{src:"/img/haldi-groom.png",alt:"Haldi Ceremony Groom",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
+            })
+          ]}),
+
+          // 3. Mandap Puja (03:00 PM)
           e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[520px] isolate",children:[
             e.jsx("img",{src:ie,alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center"}),
             e.jsxs("div",{className:"relative top-4 z-10 text-center flex flex-col items-center w-full mx-auto bg-white/50 backdrop-blur-md border border-white/40 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
               e.jsx("img",{src:v,alt:"AU Monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover mx-auto mb-2 shadow-sm"}),
-              e.jsx("p",{className:"font-serif-display italic text-amber-800 text-lg font-semibold tracking-wider",children:"#MandapPuja"}),
-              e.jsx("h3",{className:"font-cinzel text-xs tracking-[0.2em] text-amber-800/85 mt-2 uppercase font-medium",children:"SACRED VEDIC RITUALS"}),
-              e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 mt-1 italic",children:"Seeking divine blessings for peace, harmony, and togetherness."}),
-              e.jsx("div",{className:"w-24 h-px bg-gold-soft/50 my-4"}),
-              e.jsx("h2",{className:"font-cinzel text-2xl sm:text-4xl tracking-[0.18em] font-bold text-amber-800 leading-tight",children:"MANDAP PUJA"}),
-              e.jsx("p",{className:"font-rozha text-xl sm:text-2xl text-amber-800/90 font-normal mt-1",children:"मंडप पूजन"}),
-              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/10 border border-amber-600/30 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-amber-900 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | दोपहर 03:00 बजे (03:00 PM)"})
+              e.jsx("p",{className:"font-royal-body italic text-amber-900 text-sm font-semibold tracking-wide",children:"#MandapPuja"}),
+              e.jsx("h3",{className:"font-royal-sub text-xs tracking-[0.16em] text-amber-900 mt-1 uppercase font-semibold",children:"SACRED VEDIC RITUALS"}),
+              e.jsx("p",{className:"font-royal-body text-sm text-foreground/85 mt-2 leading-relaxed font-normal",children:"Seeking divine blessings from the Almighty for peace, harmony, and eternal togetherness."}),
+              e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 my-3.5"}),
+              e.jsx("h2",{className:"font-royal-title text-2xl sm:text-3xl tracking-wide font-bold text-amber-900 leading-tight",children:"MANDAP PUJA"}),
+              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/10 border border-amber-600/30 px-5 py-2 rounded-full font-royal-body text-xs sm:text-sm text-amber-950 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | 03:00 PM (Afternoon)"})
             ]}),
             e.jsx("div",{className:"relative z-10 w-full max-w-[210px] sm:max-w-[250px] mx-auto mt-8 flex justify-center items-end self-end",children:
               e.jsx("img",{src:"/img/mandap.png",alt:"Mandap Ceremony",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
             })
           ]}),
-          // 4. Baraat Nikasi (बारात निकासी)
+
+          // 4. Baraat (07:00 PM)
           e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[550px] isolate",children:[
             e.jsx("img",{src:oe,alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center"}),
             e.jsx("div",{className:"absolute top-0 left-0 pointer-events-none w-20 h-20 sm:w-32 sm:h-32 text-emerald-800/20 z-10",children:e.jsxs("svg",{viewBox:"0 0 100 100",className:"w-full h-full fill-none stroke-current stroke-1 animate-draw",children:[e.jsx("path",{d:"M 0,20 C 10,20 20,10 20,0 M 0,40 C 20,40 40,20 40,0 M 0,60 C 30,60 60,30 60,0 M 0,80 C 40,80 80,40 80,0"}),e.jsx("circle",{cx:"10",cy:"10",r:"3",className:"fill-current"}),e.jsx("circle",{cx:"30",cy:"30",r:"3",className:"fill-current"}),e.jsx("circle",{cx:"50",cy:"50",r:"3",className:"fill-current"})]})}),
             e.jsx("div",{className:"absolute top-0 right-0 scale-x-[-1] pointer-events-none w-20 h-20 sm:w-32 sm:h-32 text-emerald-800/20 z-10",children:e.jsxs("svg",{viewBox:"0 0 100 100",className:"w-full h-full fill-none stroke-current stroke-1 animate-draw",children:[e.jsx("path",{d:"M 0,20 C 10,20 20,10 20,0 M 0,40 C 20,40 40,20 40,0 M 0,60 C 30,60 60,30 60,0"}),e.jsx("circle",{cx:"15",cy:"15",r:"2.5",className:"fill-current"}),e.jsx("circle",{cx:"35",cy:"35",r:"2.5",className:"fill-current"})]})}),
             e.jsxs("div",{className:"relative z-10 text-center flex flex-col items-center w-full mx-auto bg-white/40 backdrop-blur-md border border-white/30 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
               e.jsx("img",{src:v,alt:"AU Monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover mx-auto mb-2 shadow-sm"}),
-              e.jsx("p",{className:"font-serif-display italic text-emerald-800 text-lg font-semibold tracking-wider",children:"#BaraatNikasi"}),
-              e.jsx("h3",{className:"font-cinzel text-xs tracking-[0.2em] text-emerald-800/85 mt-2 uppercase font-medium",children:"THE GRAND ROYAL PROCESSION"}),
-              e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 mt-1 italic",children:"Dancing and rejoicing as the groom arrives with family and friends."}),
-              e.jsx("div",{className:"w-24 h-px bg-gold-soft/50 my-4"}),
-              e.jsx("h2",{className:"font-cinzel text-2xl sm:text-4xl tracking-[0.18em] font-bold text-emerald-800 leading-tight",children:"BARAAT NIKASI"}),
-              e.jsx("p",{className:"font-rozha text-xl sm:text-2xl text-emerald-800/90 font-normal mt-1",children:"बारात निकासी"}),
-              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-emerald-500/10 border border-emerald-600/30 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-emerald-900 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | सायं 07:00 बजे (07:00 PM)"})
+              e.jsx("p",{className:"font-royal-body italic text-emerald-800 text-sm font-semibold tracking-wide",children:"#BaraatProcession"}),
+              e.jsx("h3",{className:"font-royal-sub text-xs tracking-[0.16em] text-emerald-800 mt-1 uppercase font-semibold",children:"THE GRAND ROYAL PROCESSION"}),
+              e.jsx("p",{className:"font-royal-body text-sm text-foreground/85 mt-2 leading-relaxed font-normal",children:"Dancing and rejoicing as the groom arrives in grand royal style."}),
+              e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 my-3.5"}),
+              e.jsx("h2",{className:"font-royal-title text-2xl sm:text-3xl tracking-wide font-bold text-emerald-800 leading-tight",children:"BARAAT PROCESSION"}),
+              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-emerald-500/10 border border-emerald-600/30 px-5 py-2 rounded-full font-royal-body text-xs sm:text-sm text-emerald-950 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | 07:00 PM (Evening)"})
             ]}),
             e.jsx("div",{className:"relative z-10 w-full max-w-[210px] sm:max-w-[250px] mx-auto mt-8 flex justify-center items-end self-end",children:
-              e.jsx("img",{src:"/img/groom-barat.png",alt:"Baraat Nikasi Groom",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
+              e.jsx("img",{src:"/img/groom-barat.png",alt:"Baraat Groom",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
             })
           ]}),
-          // 5. Suruchi Bhoj (सुरुचि भोज)
+
+          // 5. Dinner (08:00 PM onwards)
           e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[530px] isolate",children:[
             e.jsx("img",{src:"/img/reception-bg.png",alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center filter brightness-95"}),
             e.jsx("div",{className:"absolute inset-0 pointer-events-none overflow-hidden z-10",children:Array.from({length:6}).map((c,l)=>e.jsx("div",{className:"absolute animate-float-petal opacity-75",style:{left:`${15+l*27%75}%`,animationDuration:`${10+l*4%7}s`,animationDelay:`${l*5%4}s`},children:e.jsx("span",{className:"text-xl sm:text-2xl opacity-70",children:"✨"})},l))}),
             e.jsxs("div",{className:"relative z-10 text-center flex flex-col items-center w-full mx-auto bg-white/60 backdrop-blur-md border border-white/50 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
               e.jsx("img",{src:v,alt:"AU Monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover mx-auto mb-2 shadow-sm"}),
-              e.jsx("p",{className:"font-serif-display italic text-[#5C0F14] text-lg font-semibold tracking-wider",style:{color:"#5C0F14"},children:"#SuruchiBhoj"}),
-              e.jsx("h3",{className:"font-cinzel text-xs tracking-[0.2em] text-[#5C0F14]/85 mt-2 uppercase font-medium",style:{color:"#5C0F14"},children:"WEDDING FEAST & RECEPTION"}),
-              e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 mt-1 italic",style:{color:"#441E22"},children:"Relish delicious royal cuisine as we celebrate and toast together."}),
-              e.jsx("div",{className:"w-24 h-px bg-gold-soft/50 my-4"}),
-              e.jsx("h2",{className:"font-cinzel text-2xl sm:text-4xl tracking-[0.18em] font-bold text-[#5C0F14] leading-tight",style:{color:"#5C0F14"},children:"SURUCHI BHOJ"}),
-              e.jsx("p",{className:"font-rozha text-xl sm:text-2xl text-[#5C0F14]/90 font-normal mt-1",style:{color:"#5C0F14"},children:"सुरुचि भोज (प्रीतिभोज)"}),
-              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/15 border border-amber-600/35 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-amber-900 font-semibold shadow-soft",style:{color:"#78350F"},children:"Wednesday, 25th Nov 2026 | रात्रि 08:00 बजे से (08:00 PM Onwards)"})
+              e.jsx("p",{className:"font-royal-body italic text-[#5C0F14] text-sm font-semibold tracking-wide",style:{color:"#5C0F14"},children:"#WeddingDinner"}),
+              e.jsx("h3",{className:"font-royal-sub text-xs tracking-[0.16em] text-[#5C0F14]/90 mt-1 uppercase font-semibold",style:{color:"#5C0F14"},children:"ROYAL WEDDING FEAST"}),
+              e.jsx("p",{className:"font-royal-body text-sm text-foreground/85 mt-2 leading-relaxed font-normal",style:{color:"#441E22"},children:"Relish a lavish spread of gourmet cuisine as we celebrate and toast together."}),
+              e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 my-3.5"}),
+              e.jsx("h2",{className:"font-royal-title text-2xl sm:text-3xl tracking-wide font-bold text-[#5C0F14] leading-tight",style:{color:"#5C0F14"},children:"DINNER & RECEPTION"}),
+              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/15 border border-amber-600/35 px-5 py-2 rounded-full font-royal-body text-xs sm:text-sm text-amber-950 font-semibold shadow-soft",style:{color:"#78350F"},children:"Wednesday, 25th Nov 2026 | 08:00 PM Onwards"})
             ]}),
             e.jsx("div",{className:"relative z-10 w-full max-w-[200px] sm:max-w-[240px] mx-auto mt-8 flex justify-center items-end self-end",children:
-              e.jsx("img",{src:"/img/partibhoj.png",alt:"Suruchi Bhoj Preetibhoj",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
+              e.jsx("img",{src:"/img/partibhoj.png",alt:"Wedding Dinner Feast",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
             })
           ]}),
-          // 6. Shubh Lagna (शुभ लग्न)
+
+          // 6. Lagna & Phere (Midnight 12:00 AM)
           e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white text-cream p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[530px] isolate",children:[
             e.jsx("img",{src:ce,alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center"}),
             e.jsx("div",{className:"absolute inset-0 pointer-events-none overflow-hidden z-10",children:Array.from({length:6}).map((c,l)=>e.jsx("div",{className:"absolute animate-float-petal opacity-75",style:{left:`${10+l*29%80}%`,animationDuration:`${12+l*3%8}s`,animationDelay:`${l*7%5}s`},children:e.jsx("span",{className:"text-xl sm:text-2xl opacity-70",children:"🌸"})},l))}),
             e.jsxs("div",{className:"relative z-10 text-center flex flex-col items-center w-full mx-auto bg-white/60 backdrop-blur-md border border-white/50 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
               e.jsx("img",{src:v,alt:"AU Monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover mx-auto mb-2 shadow-sm"}),
-              e.jsx("p",{className:"font-serif-display italic text-[#5C0F14] text-lg font-semibold tracking-wider",style:{color:"#5C0F14"},children:"#ShubhLagna"}),
-              e.jsx("h3",{className:"font-cinzel text-xs tracking-[0.2em] text-[#5C0F14]/85 mt-2 uppercase font-medium",style:{color:"#5C0F14"},children:"SACRED WEDDING RITUALS & PHERAS"}),
-              e.jsx("p",{className:"font-serif-display text-sm sm:text-base text-foreground/80 mt-1 italic",style:{color:"#441E22"},children:"Two souls united in eternal love with sacred vows around the holy fire."}),
-              e.jsx("div",{className:"w-24 h-px bg-gold-soft/50 my-4"}),
-              e.jsx("h2",{className:"font-cinzel text-2xl sm:text-4xl tracking-[0.18em] font-bold text-[#5C0F14] leading-tight",style:{color:"#5C0F14"},children:"SHUBH LAGNA"}),
-              e.jsx("p",{className:"font-rozha text-xl sm:text-2xl text-[#5C0F14]/90 font-normal mt-1",style:{color:"#5C0F14"},children:"शुभ लग्न (पाणिग्रहण संस्कार)"}),
-              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/15 border border-amber-600/35 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-amber-900 font-semibold shadow-soft",style:{color:"#78350F"},children:"Wednesday, 25th Nov 2026 | रात्रि 12:00 बजे (12:00 AM)"})
+              e.jsx("p",{className:"font-royal-body italic text-[#5C0F14] text-sm font-semibold tracking-wide",style:{color:"#5C0F14"},children:"#LagnaAndPhere"}),
+              e.jsx("h3",{className:"font-royal-sub text-xs tracking-[0.16em] text-[#5C0F14]/90 mt-1 uppercase font-semibold",style:{color:"#5C0F14"},children:"SACRED VOWS & HOLY CIRCUMAMBULATIONS"}),
+              e.jsx("p",{className:"font-royal-body text-sm text-foreground/85 mt-2 leading-relaxed font-normal",style:{color:"#441E22"},children:"Two souls united in eternal love with sacred vows and seven pheras around the holy fire."}),
+              e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 my-3.5"}),
+              e.jsx("h2",{className:"font-royal-title text-2xl sm:text-3xl tracking-wide font-bold text-[#5C0F14] leading-tight",style:{color:"#5C0F14"},children:"LAGNA & PHERE"}),
+              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/15 border border-amber-600/35 px-5 py-2 rounded-full font-royal-body text-xs sm:text-sm text-amber-950 font-semibold shadow-soft",style:{color:"#78350F"},children:"Wednesday, 25th Nov 2026 | Midnight 12:00 AM"})
             ]}),
             e.jsx("div",{className:"relative z-10 w-full max-w-[200px] sm:max-w-[240px] mx-auto mt-8 flex justify-center items-end self-end",children:
-              e.jsx("img",{src:te,alt:"Wedding Couple Caricature",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
+              e.jsx("img",{src:te,alt:"Wedding Couple Phere",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
             })
           ]})
-        ]})]})}), // 4. FAMILY SECTION (Professional line spacing, distinct ivory cards, beautiful typography)
-    e.jsxs("section",{className:"relative py-24 px-4 sm:px-6 bg-cream text-center z-10 border-t border-gold-soft/30",children:[
+        ]})]})}), // 4. FAMILY SECTION (English typography, clean ivory cards)
+    e.jsxs("section",{className:"relative py-20 px-4 sm:px-6 bg-cream text-center z-10 border-t border-gold-soft/30",children:[
       e.jsx("img",{src:k,alt:"",className:"absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none"}),
       e.jsxs("div",{className:"relative max-w-2xl mx-auto z-10",children:[
-        e.jsx("p",{className:"font-cinzel text-xs tracking-[0.3em] text-rose-deep/75 uppercase font-semibold",children:"BLESSINGS & LOVE"}),
-        e.jsx("h2",{className:"font-script text-4xl sm:text-5xl text-rose-deep font-semibold mt-1",children:"Awaiting Your Noble Presence"}),
+        e.jsx("p",{className:"font-royal-sub text-xs tracking-[0.22em] text-rose-deep/80 uppercase font-semibold",children:"BLESSINGS & LOVE"}),
+        e.jsx("h2",{className:"font-royal-title text-3xl sm:text-4xl text-rose-deep font-semibold mt-1",children:"Awaiting Your Gracious Presence"}),
         e.jsx(y,{}),
         e.jsxs("div",{className:"mb-4 px-2 space-y-1.5",children:[
-          e.jsx("p",{className:"font-hindi text-base sm:text-lg text-foreground/90 leading-relaxed font-normal",children:"आपकी गरिमामयी उपस्थिति एवं शुभाशीष नवयुगल के जीवन को मंगलमय बनाएंगे।"}),
-          e.jsx("p",{className:"font-serif-display italic text-sm sm:text-base text-rose-deep/75",children:"Join us as we celebrate love, laughter, and the beginning of forever together."})
+          e.jsx("p",{className:"font-royal-body text-sm sm:text-base text-foreground/90 leading-relaxed font-normal",children:"Your gracious presence and warm blessings will illuminate this auspicious occasion and make our celebration truly memorable."}),
+          e.jsx("p",{className:"font-royal-body italic text-xs sm:text-sm text-rose-deep/80 mt-1",children:"Join us as we celebrate love, laughter, and the beginning of forever together."})
         ]}),
 
         // Divider
-        e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 mx-auto my-7"}),
+        e.jsx("div",{className:"w-16 h-px bg-gold-soft/60 mx-auto my-6"}),
 
-        // 1. स्नेहाकांक्षी
+        // 1. With Best Compliments
         e.jsxs("div",{className:"space-y-1",children:[
-          e.jsx("p",{className:"font-cinzel text-xs tracking-[0.25em] text-rose-deep/80 uppercase font-semibold",children:"स्नेहाकांक्षी"}),
-          e.jsx("h3",{className:"font-rozha text-2xl sm:text-3xl text-rose font-normal tracking-wide",children:"निगम परिवार"}),
-          e.jsx("p",{className:"font-serif-display text-xs sm:text-sm text-foreground/60 italic",children:"(Nigam Family)"})
+          e.jsx("p",{className:"font-royal-sub text-xs tracking-[0.2em] text-rose-deep/80 uppercase font-semibold",children:"WITH BEST COMPLIMENTS FROM"}),
+          e.jsx("h3",{className:"font-royal-title text-2xl sm:text-3xl text-rose font-semibold tracking-wide mt-1",children:"Nigam Family"}),
+          e.jsx("p",{className:"font-royal-body text-xs sm:text-sm text-foreground/70 italic mt-0.5",children:"& All Near and Dear Ones"})
         ]}),
 
         // Divider
-        e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 mx-auto my-7"}),
+        e.jsx("div",{className:"w-16 h-px bg-gold-soft/60 mx-auto my-6"}),
 
-        // 2. स्वागतकर्ता
+        // 2. Cordially Invited By
         e.jsxs("div",{className:"space-y-2",children:[
-          e.jsx("p",{className:"font-cinzel text-xs tracking-[0.25em] text-rose-deep/80 uppercase font-semibold",children:"स्वागतकर्ता"}),
-          e.jsx("p",{className:"font-hindi text-lg sm:text-xl text-rose-deep font-medium leading-relaxed",children:"नीलम – सुधीर निगम \u00a0•\u00a0 अनीता – अशोक निगम"}),
-          e.jsx("p",{className:"font-hindi text-base sm:text-lg text-foreground/85 leading-relaxed",children:"सोनम – राहुल श्रीवास्तव"}),
-          e.jsx("p",{className:"font-hindi text-sm sm:text-base text-rose/90 font-medium italic pt-0.5",children:"स्नेहिल बच्चे: वायु, ओविया"})
+          e.jsx("p",{className:"font-royal-sub text-xs tracking-[0.2em] text-rose-deep/80 uppercase font-semibold",children:"CORDIALLY INVITED BY"}),
+          e.jsx("p",{className:"font-royal-body text-base sm:text-lg text-rose-deep font-semibold leading-relaxed mt-1",children:"Neelam – Sudhir Nigam \u00a0•\u00a0 Anita – Ashok Nigam"}),
+          e.jsx("p",{className:"font-royal-body text-sm sm:text-base text-foreground/85 leading-relaxed font-medium",children:"Sonam – Rahul Shrivastava"}),
+          e.jsx("p",{className:"font-royal-body text-xs sm:text-sm text-rose font-medium italic pt-0.5",children:"Loving Kids: Vayu, Oviya"})
         ]}),
 
         // Divider
-        e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 mx-auto my-8"}),
+        e.jsx("div",{className:"w-16 h-px bg-gold-soft/60 mx-auto my-7"}),
 
-        // 3. दर्शनाभिलाषी
-        e.jsxs("div",{className:"space-y-3.5",children:[
-          e.jsx("p",{className:"font-cinzel text-xs tracking-[0.25em] text-rose-deep/80 uppercase font-semibold",children:"दर्शनाभिलाषी"}),
-          e.jsxs("div",{className:"space-y-2.5 font-hindi text-base sm:text-lg text-foreground/85 leading-relaxed",children:[
-            e.jsx("p",{children:"श्रीमती सरोज देवी निगम \u00a0•\u00a0 सुशील निगम"}),
-            e.jsx("p",{children:"वंदना – अनिल निगम \u00a0•\u00a0 अर्चना – दिलीप निगम"}),
-            e.jsx("p",{children:"वीणा – रणजीत सिंह निगम \u00a0•\u00a0 रेखा – अखिलेश निगम"}),
-            e.jsx("p",{children:"शिखा – सौरभ निगम \u00a0•\u00a0 शालिनी – कुणाल निगम"}),
-            e.jsx("p",{children:"विदुषी – अंकुर निगम \u00a0•\u00a0 रीति – यश निगम"})
+        // 3. With Blessings & Warm Regards
+        e.jsxs("div",{className:"space-y-3",children:[
+          e.jsx("p",{className:"font-royal-sub text-xs tracking-[0.2em] text-rose-deep/80 uppercase font-semibold",children:"WITH BLESSINGS & WARM REGARDS"}),
+          e.jsxs("div",{className:"space-y-1.5 font-royal-body text-sm sm:text-base text-foreground/85 leading-relaxed font-normal mt-2",children:[
+            e.jsx("p",{children:"Mrs. Saroj Devi Nigam \u00a0•\u00a0 Sushil Nigam"}),
+            e.jsx("p",{children:"Vandana – Anil Nigam \u00a0•\u00a0 Archana – Dilip Nigam"}),
+            e.jsx("p",{children:"Veena – Ranjeet Singh Nigam \u00a0•\u00a0 Rekha – Akhilesh Nigam"}),
+            e.jsx("p",{children:"Shikha – Saurabh Nigam \u00a0•\u00a0 Shalini – Kunal Nigam"}),
+            e.jsx("p",{children:"Vidushi – Ankur Nigam \u00a0•\u00a0 Reeti – Yash Nigam"})
           ]})
         ]}),
 
         // Divider
-        e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 mx-auto my-8"}),
+        e.jsx("div",{className:"w-16 h-px bg-gold-soft/60 mx-auto my-7"}),
 
-        // 4. संपर्क सूत्र (R.S.V.P.)
-        e.jsxs("div",{className:"space-y-3",children:[
-          e.jsx("p",{className:"font-cinzel text-xs tracking-[0.25em] text-rose-deep/80 uppercase font-semibold",children:"R.S.V.P. / संपर्क सूत्र"}),
-          e.jsx("h3",{className:"font-hindi text-lg sm:text-xl text-rose-deep font-semibold",children:"अशोक निगम एवं समस्त निगम परिवार"}),
+        // 4. R.S.V.P.
+        e.jsxs("div",{className:"space-y-2.5",children:[
+          e.jsx("p",{className:"font-royal-sub text-xs tracking-[0.2em] text-rose-deep/80 uppercase font-semibold",children:"R.S.V.P."}),
+          e.jsx("h3",{className:"font-royal-title text-lg sm:text-xl text-rose-deep font-bold",children:"Ashok Nigam & All Family Members"}),
           e.jsx("div",{className:"pt-2",children:
-            e.jsxs("a",{href:"tel:9425367655",className:"inline-flex items-center justify-center gap-2.5 gradient-gold text-white font-cinzel text-base sm:text-lg font-bold px-8 py-3 rounded-full shadow-gold hover:opacity-95 transition-all hover:scale-105 tracking-wider active:scale-95",style:{background:"linear-gradient(135deg, #d4af37 0%, #aa7c11 100%)",color:"#ffffff",boxShadow:"0 4px 16px rgba(170,124,17,0.45)"},children:[
+            e.jsxs("a",{href:"tel:9425367655",className:"inline-flex items-center justify-center gap-2.5 gradient-gold text-white font-royal-body text-sm sm:text-base font-semibold px-7 py-2.5 rounded-full shadow-gold hover:opacity-95 transition-all hover:scale-105 tracking-wider active:scale-95",style:{background:"linear-gradient(135deg, #d4af37 0%, #aa7c11 100%)",color:"#ffffff",boxShadow:"0 4px 16px rgba(170,124,17,0.45)"},children:[
               e.jsx(C,{className:"w-4 h-4 text-white"}),
-              e.jsx("span",{className:"font-hindi text-base font-bold text-white",style:{color:"#ffffff"},children:"मो.:"}),
-              e.jsx("span",{style:{color:"#ffffff",fontWeight:"bold"},children:"9425367655"})
+              e.jsx("span",{className:"font-royal-body text-xs font-bold text-white",style:{color:"#ffffff"},children:"CALL:"}),
+              e.jsx("span",{style:{color:"#ffffff",fontWeight:"bold"},children:"+91 9425367655"})
             ]})
           })
         ]})
@@ -357,23 +354,23 @@ const de=()=>{
     e.jsxs("section",{className:"relative py-20 px-6 bg-[#FAF6F0] z-10 border-t border-gold-soft/30",children:[
       e.jsx("div",{className:"absolute inset-0 opacity-[0.08] bg-cover bg-center pointer-events-none",style:{backgroundImage:`url(${k})`}}),
       e.jsxs("div",{className:"relative max-w-4xl mx-auto text-center z-10",children:[
-        e.jsx("p",{className:"font-cinzel text-xs text-rose-deep/80 tracking-[0.25em] uppercase font-semibold",children:"WHERE WE CELEBRATE"}),
-        e.jsx("h2",{className:"font-script text-4xl sm:text-5xl text-rose-deep mt-2",children:"Bandhan Garden"}),
+        e.jsx("p",{className:"font-royal-sub text-xs text-rose-deep/80 tracking-[0.22em] uppercase font-semibold",children:"WHERE WE CELEBRATE"}),
+        e.jsx("h2",{className:"font-royal-title text-3xl sm:text-4xl text-rose-deep mt-2 font-semibold",children:"Bandhan Garden"}),
         e.jsx(y,{}),
-        e.jsxs("p",{className:"font-serif-display text-base sm:text-lg text-foreground/80 max-w-xl mx-auto leading-relaxed",children:[
+        e.jsxs("p",{className:"font-royal-body text-sm sm:text-base text-foreground/85 max-w-xl mx-auto leading-relaxed",children:[
           "Join us at the venue for our wedding celebrations at:",
           e.jsx("br",{}),
-          e.jsx("span",{className:"font-normal text-rose-deep text-lg block mt-1 font-hindi",children:"📍 बंधन गार्डन (Bandhan Garden)"}),
-          e.jsx("span",{className:"font-hindi block text-sm sm:text-base text-foreground/80 font-normal",children:"लवकुश मेन रोड, लवकुश आवास विहार कॉलोनी, शबरी नगर, सुखलिया, इंदौर"}),
-          e.jsx("span",{className:"italic mt-1 block text-sm text-foreground/60",children:"Where our forever begins."})
+          e.jsx("span",{className:"font-royal-title font-bold text-rose-deep text-lg block mt-2",children:"📍 Bandhan Garden"}),
+          e.jsx("span",{className:"font-royal-body block text-xs sm:text-sm text-foreground/80 font-normal mt-1 leading-relaxed",children:"Luvkush Main Road, Luvkush Awas Vihar Colony, Shabari Nagar, Sukhliya, Indore, Madhya Pradesh"}),
+          e.jsx("span",{className:"italic mt-2 block text-xs text-foreground/60",children:"Where our forever begins."})
         ]}),
         e.jsx("div",{className:"mt-10 rounded-3xl overflow-hidden border border-gold-soft shadow-elegant max-w-2xl mx-auto",children:
           e.jsx("iframe",{title:"Bandhan Garden map",src:"https://www.google.com/maps?q=Bandhan+Garden+Luvkush+Awas+Vihar+Colony+Sukhliya+Indore&output=embed",className:"w-full h-[320px] sm:h-[380px]",loading:"lazy"})
         }),
         e.jsx("a",{href:"https://www.google.com/maps/search/?api=1&query=Bandhan+Garden+Luvkush+Awas+Vihar+Colony+Sukhliya+Indore",target:"_blank",rel:"noreferrer",className:"inline-block mt-8",children:
-          e.jsxs(U,{className:"gradient-gold text-white border-0 hover:opacity-90 rounded-full px-8 shadow-gold font-cinzel text-xs tracking-wider",children:[
+          e.jsxs(U,{className:"gradient-gold text-white border-0 hover:opacity-90 rounded-full px-8 shadow-gold font-royal-body text-xs font-semibold tracking-wider",children:[
             e.jsx(H,{className:"mr-2 h-4 w-4"}),
-            "Get Directions (दिशा-निर्देश)"
+            "Get Directions"
           ]})
         })
       ]})
@@ -382,18 +379,17 @@ const de=()=>{
     // 6. FOOTER
     e.jsxs("footer",{className:"relative bg-gradient-to-b from-[#3A050B] to-[#5C0F14] text-cream py-16 px-6 text-center z-10 border-t-2 border-gold-soft/40",children:[
       e.jsx("div",{className:"absolute inset-0 bg-black/10 pointer-events-none"}),
-      e.jsx("p",{className:"font-cinzel text-xs tracking-[0.4em] text-amber-200 font-semibold",style:{color:"#FDE68A"},children:"WITH LOVE"}),
-      e.jsx("h3",{className:"font-rozha text-4xl sm:text-5xl text-amber-200 mt-3 font-normal",style:{color:"#FDE68A"},children:"चि. अमित ♥ सौ. उर्वशी"}),
-      e.jsx("p",{className:"font-serif-display text-base tracking-wider text-amber-100 mt-1.5 italic font-semibold",style:{color:"#FEF3C7"},children:"Amit & Urvashi"}),
+      e.jsx("p",{className:"font-royal-sub text-xs tracking-[0.3em] text-amber-200 font-semibold",style:{color:"#FDE68A"},children:"WITH LOVE"}),
+      e.jsx("h3",{className:"font-royal-script text-4xl sm:text-5xl text-amber-200 mt-2 font-normal",style:{color:"#FDE68A"},children:"Amit & Urvashi"}),
       e.jsxs("div",{className:"my-5 flex items-center justify-center gap-3",children:[
         e.jsx("span",{className:"h-px w-12 bg-gold-soft/50"}),
         e.jsx("span",{className:"text-2xl font-emoji",children:"❤️"}),
         e.jsx("span",{className:"h-px w-12 bg-gold-soft/50"})
       ]}),
-      e.jsx("p",{className:"font-serif-display text-lg italic text-amber-100 font-medium",style:{color:"#FFF8EE"},children:"Wednesday, 25th November 2026"}),
-      e.jsx("p",{className:"font-hindi text-sm sm:text-base text-amber-200 mt-1.5 font-normal",style:{color:"#FDE68A"},children:"विवाह स्थल: बंधन गार्डन, सुखलिया, इंदौर"}),
-      e.jsx("p",{className:"font-hindi text-sm sm:text-base text-amber-100 mt-1.5 font-bold",style:{color:"#FEF3C7"},children:"संपर्क: 9425367655"}),
-      e.jsx("p",{className:"mt-3.5 font-cinzel text-xs sm:text-sm tracking-[0.25em] text-amber-200 font-bold",style:{color:"#FDE68A"},children:"#AmitWedsUrvashi"})
+      e.jsx("p",{className:"font-royal-body text-sm sm:text-base italic text-amber-100 font-medium",style:{color:"#FFF8EE"},children:"Wednesday, 25th November 2026"}),
+      e.jsx("p",{className:"font-royal-body text-xs sm:text-sm text-amber-200 mt-1 font-normal",style:{color:"#FDE68A"},children:"Venue: Bandhan Garden, Sukhliya, Indore"}),
+      e.jsx("p",{className:"font-royal-body text-xs sm:text-sm text-amber-100 mt-1 font-semibold",style:{color:"#FEF3C7"},children:"Contact: +91 9425367655"}),
+      e.jsx("p",{className:"mt-3.5 font-royal-sub text-xs tracking-[0.2em] text-amber-300 font-bold",style:{color:"#FDE68A"},children:"#AmitWedsUrvashi"})
     ]})
   ]});
 };
