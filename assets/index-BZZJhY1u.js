@@ -213,16 +213,16 @@ const de=()=>{
             })
           ]}),
 
-          // 3. Mandap Puja (03:00 PM)
+          // 3. Mandap (03:00 PM)
           e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[520px] isolate",children:[
             e.jsx("img",{src:ie,alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center"}),
             e.jsxs("div",{className:"relative top-4 z-10 text-center flex flex-col items-center w-full mx-auto bg-white/50 backdrop-blur-md border border-white/40 p-5 sm:p-6 rounded-3xl shadow-elegant mt-12 sm:mt-16",children:[
               e.jsx("img",{src:v,alt:"AU Monogram",className:"w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover mx-auto mb-2 shadow-sm"}),
-              e.jsx("p",{className:"font-royal-body italic text-amber-900 text-sm font-semibold tracking-wide",children:"#MandapPuja"}),
+              e.jsx("p",{className:"font-royal-body italic text-amber-900 text-sm font-semibold tracking-wide",children:"#Mandap"}),
               e.jsx("h3",{className:"font-royal-sub text-xs tracking-[0.16em] text-amber-900 mt-1 uppercase font-semibold",children:"SACRED VEDIC RITUALS"}),
               e.jsx("p",{className:"font-royal-body text-sm text-foreground/85 mt-2 leading-relaxed font-normal",children:"Seeking divine blessings from the Almighty for peace, harmony, and eternal togetherness."}),
               e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 my-3.5"}),
-              e.jsx("h2",{className:"font-royal-title text-2xl sm:text-3xl tracking-wide font-bold text-amber-900 leading-tight",children:"MANDAP PUJA"}),
+              e.jsx("h2",{className:"font-royal-title text-2xl sm:text-3xl tracking-wide font-bold text-amber-900 leading-tight",children:"MANDAP"}),
               e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/10 border border-amber-600/30 px-5 py-2 rounded-full font-royal-body text-xs sm:text-sm text-amber-950 font-semibold shadow-soft",children:"Wednesday, 25th Nov 2026 | 03:00 PM (Afternoon)"})
             ]}),
             e.jsx("div",{className:"relative z-10 w-full max-w-[210px] sm:max-w-[250px] mx-auto mt-8 flex justify-center items-end self-end",children:
@@ -267,7 +267,7 @@ const de=()=>{
             })
           ]}),
 
-          // 6. Lagna & Phere (Midnight 12:00 AM)
+          // 6. Lagna & Phere (Midnight 12 O'Clock Onwards)
           e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white text-cream p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[530px] isolate",children:[
             e.jsx("img",{src:ce,alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center"}),
             e.jsx("div",{className:"absolute inset-0 pointer-events-none overflow-hidden z-10",children:Array.from({length:6}).map((c,l)=>e.jsx("div",{className:"absolute animate-float-petal opacity-75",style:{left:`${10+l*29%80}%`,animationDuration:`${12+l*3%8}s`,animationDelay:`${l*7%5}s`},children:e.jsx("span",{className:"text-xl sm:text-2xl opacity-70",children:"🌸"})},l))}),
@@ -278,7 +278,7 @@ const de=()=>{
               e.jsx("p",{className:"font-royal-body text-sm text-foreground/85 mt-2 leading-relaxed font-normal",style:{color:"#441E22"},children:"Two souls united in eternal love with sacred vows and seven pheras around the holy fire."}),
               e.jsx("div",{className:"w-20 h-px bg-gold-soft/60 my-3.5"}),
               e.jsx("h2",{className:"font-royal-title text-2xl sm:text-3xl tracking-wide font-bold text-[#5C0F14] leading-tight",style:{color:"#5C0F14"},children:"LAGNA & PHERE"}),
-              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/15 border border-amber-600/35 px-5 py-2 rounded-full font-royal-body text-xs sm:text-sm text-amber-950 font-semibold shadow-soft",style:{color:"#78350F"},children:"Wednesday, 25th Nov 2026 | Midnight 12:00 AM"})
+              e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/15 border border-amber-600/35 px-5 py-2 rounded-full font-royal-body text-xs sm:text-sm text-amber-950 font-semibold shadow-soft",style:{color:"#78350F"},children:"Wednesday, 25th Nov 2026 | Midnight 12 O'Clock Onwards"})
             ]}),
             e.jsx("div",{className:"relative z-10 w-full max-w-[200px] sm:max-w-[240px] mx-auto mt-8 flex justify-center items-end self-end",children:
               e.jsx("img",{src:te,alt:"Wedding Couple Phere",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
@@ -313,7 +313,7 @@ const de=()=>{
         e.jsxs("div",{className:"space-y-2",children:[
           e.jsx("p",{className:"font-royal-sub text-xs tracking-[0.2em] text-rose-deep/80 uppercase font-semibold",children:"CORDIALLY INVITED BY"}),
           e.jsx("p",{className:"font-royal-body text-base sm:text-lg text-rose-deep font-semibold leading-relaxed mt-1",children:"Neelam – Sudhir Nigam \u00a0•\u00a0 Anita – Ashok Nigam"}),
-          e.jsx("p",{className:"font-royal-body text-sm sm:text-base text-foreground/85 leading-relaxed font-medium",children:"Sonam – Rahul Shrivastava"}),
+          e.jsx("p",{className:"font-royal-body text-sm sm:text-base text-foreground/85 leading-relaxed font-medium",children:"Sonam – Rahul Srivastava"}),
           e.jsx("p",{className:"font-royal-body text-xs sm:text-sm text-rose font-medium italic pt-0.5",children:"Loving Kids: Vaayu, Oviya"})
         ]}),
 
@@ -328,7 +328,8 @@ const de=()=>{
             e.jsx("p",{children:"Vandana – Anil Nigam \u00a0•\u00a0 Archana – Dilip Nigam"}),
             e.jsx("p",{children:"Veena – Ranjeet Singh Nigam \u00a0•\u00a0 Rekha – Akhilesh Nigam"}),
             e.jsx("p",{children:"Shikha – Saurabh Nigam \u00a0•\u00a0 Shalini – Kunal Nigam"}),
-            e.jsx("p",{children:"Vidushi – Ankur Nigam \u00a0•\u00a0 Reeti – Yash Nigam"})
+            e.jsx("p",{children:"Vidushi – Ankur Nigam \u00a0•\u00a0 Reeti – Yash Nigam"}),
+            e.jsx("p",{children:"Sudhanshu Nigam"})
           ]})
         ]}),
 
